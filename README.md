@@ -68,11 +68,8 @@ Control the robot using your keyboard:
 
 ## 🧪 How it Works
 1.The robot is drawn using Canvas.create_rectangle().
-
 2.Each movement is handled via keyboard events (<Key> bindings).
-
 3.Before every move, the code checks for potential collision using canvas.find_overlapping().
-
 4.If a collision with any obstacle is detected, the robot is moved back to its previous position.
 
 
