@@ -44,6 +44,7 @@ This project simulates a robot navigating a maze using a graphical user interfac
 ```bash
 git clone https://github.com/hithakotian21/robo-maze-simulator.git
 cd robo-maze-simulator
+` ``` `
 
 ### 2. Run the Program
 
