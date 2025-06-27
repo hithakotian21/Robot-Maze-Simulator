@@ -44,7 +44,7 @@ This project simulates a robot navigating a maze using a graphical user interfac
 ```bash
 git clone https://github.com/hithakotian21/robo-maze-simulator.git
 cd robo-maze-simulator
-` ``` `
+```
 
 ### 2. Run the Program
 
@@ -52,12 +52,9 @@ Make sure you have Python 3 installed.
 
 ```bash
 python robomaze.py
-
-
+```
 ---
 
-### 🎯 Controls Section (after that):
-```markdown
 ## 🎯 Controls
 
 Control the robot using your keyboard:
@@ -68,6 +65,15 @@ Control the robot using your keyboard:
 | `↓` Down Arrow | Move Down    |
 | `←` Left Arrow | Move Left    |
 | `→` Right Arrow| Move Right   |
+
+## 🧪 How it Works
+1.The robot is drawn using Canvas.create_rectangle().
+
+2.Each movement is handled via keyboard events (<Key> bindings).
+
+3.Before every move, the code checks for potential collision using canvas.find_overlapping().
+
+4.If a collision with any obstacle is detected, the robot is moved back to its previous position.
 
 
 
