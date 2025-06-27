@@ -45,5 +45,51 @@ This project simulates a robot navigating a maze using a graphical user interfac
 git clone https://github.com/hithakotian21/robo-maze-simulator.git
 cd robo-maze-simulator
 
-### 2. Run the Program
+2. Run the Program
+Make sure you have Python 3 installed.
+
+bash
+Copy
+Edit
+python robomaze.py
+🎯 Controls
+Control the robot using your keyboard:
+
+Key	Action
+↑ Up Arrow	Move Up
+↓ Down Arrow	Move Down
+← Left Arrow	Move Left
+→ Right Arrow	Move Right
+
+🧪 How It Works
+The robot (red rectangle) is drawn using Tkinter’s Canvas.create_rectangle().
+
+When a key is pressed, the robot moves in that direction.
+
+Each move is validated using canvas.find_overlapping() to check for collision.
+
+If a collision with an obstacle is detected, the robot is automatically moved back to the previous position.
+
+The goal is to reach the "Exit" zone without touching walls or getting stuck.
+
+📸 Screenshots
+(You can add screenshots of your GUI here once the project is pushed to GitHub)
+For example:
+![Maze Screenshot](screenshots/maze.png)
+
+📚 Future Improvements
+Add automatic robot pathfinding using algorithms like A*, BFS, or DFS
+
+Integrate simulated sensors (IR, LIDAR)
+
+Add scoring, levels, or a timer
+
+Implement GUI buttons: Reset, Start, or Theme Toggle
+
+Export robot path or performance data
+
+
+
+
+
 
